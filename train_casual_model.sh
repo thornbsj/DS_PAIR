@@ -1,0 +1,8 @@
+python ./casual_train.py --model_name=bigscience/bloomz-560m --tokenizer_name=bigscience/bloomz-560m --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=1
+python ./casual_train.py --model_name=bigscience/bloomz-560m --tokenizer_name=bigscience/bloomz-560m --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=3
+python ./casual_train.py --model_name=facebook/xglm-564M --tokenizer_name=facebook/xglm-564M --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=1
+python ./casual_train.py --model_name=facebook/xglm-564M --tokenizer_name=facebook/xglm-564M --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=3
+python ./casual_train.py --model_name=sail/Sailor-0.5B --tokenizer_name=sail/Sailor-0.5B --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=1
+python ./casual_train.py --model_name=sail/Sailor-0.5B --tokenizer_name=sail/Sailor-0.5B --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=3
+python ./casual_train.py --model_name=bigscience/bloom-1b1 --tokenizer_name=bigscience/bloom-1b1 --per_device_train_batch_size=4 --gradient_accumulation_steps=8 --num_epochs=1 --use_lora=True
+python ./casual_train.py --model_name=bigscience/bloom-7b1 --tokenizer_name=bigscience/bloom-7b1 --per_device_train_batch_size=1 --gradient_accumulation_steps=32 --num_epochs=1 --use_lora=True --model_load_type=4bit
