@@ -1,6 +1,10 @@
 # 根据物品的描述以及效果生成“黑暗之魂”式的中文物品背景描述
 数据来源：https://github.com/LeMinerva/Dark-Souls-Documents
-
+<br>
+我训练出的模型网盘：https://pan.baidu.com/s/1B16RGDCA_mNGaYafKaHPyQ?pwd=dxei 
+提取码：dxei
+使用模型：bigscience/bloomz-560m	
+<br>
 get_data_for_casualLM.ipynb：从上面的数据中摘取数据<br>
 data_for_casual.xlsx：原始数据集<br>
 Data Augumentation.ipynb：对数据进行数据增强<br>
