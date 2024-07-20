@@ -37,3 +37,10 @@ casual_predict.py：文本生成<br>
   --max_length：模型输出文本的最大长度（包括eos token）。<br>
 <br>
 可用train_casual_model.sh与predict_casual_model.sh作参考
+<br>
+2024年7月20日更新：<br>
+新增文件夹DS_Desc；将Hugging-face训练完的模型放入dot NET项目内<br>
+详细信息请看：https://blog.csdn.net/thorn_r/article/details/140576460<br>
+注意文件夹中的Tokenizer文件在上传到github时可能有损坏了，完整的ONNX模型以及分词文件可以从此处下载：<br>
+链接：https://pan.baidu.com/s/1Zl8Uj7J8ZYVj3lMtNpndAQ?pwd=q7tl<br> 
+提取码：q7tl
